@@ -4,201 +4,134 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "33a79ec4071d0f48b818e4fb06418c9d",
-    "content-hash": "7c739b01c283b4fbabaf321d703ad094",
+    "hash": "55ebf049bb37e1e05cde84b044f9963e",
+    "content-hash": "9052f151494a00b5bf9ddad59dc493f5",
     "packages": [
         {
-            "name": "aura/di",
-            "version": "3.1.0",
+            "name": "aura/web",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "518bd230dc0246ab5491299f1a4f8d90c36fd670"
+                "url": "https://github.com/auraphp/Aura.Web.git",
+                "reference": "b22ba83141384981514e2057ebe99e9a5509914f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/518bd230dc0246ab5491299f1a4f8d90c36fd670",
-                "reference": "518bd230dc0246ab5491299f1a4f8d90c36fd670",
-                "shasum": ""
-            },
-            "require": {
-                "container-interop/container-interop": "~1.0",
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "acclimate/container": "~1.0",
-                "mouf/picotainer": "~1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Aura\\Di\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aura.Di Contributors",
-                    "homepage": "https://github.com/auraphp/Aura.Di/contributors"
-                }
-            ],
-            "description": "A serializable dependency injection container with constructor and setter injection, interface and trait awareness, configuration inheritance, and much more.",
-            "homepage": "https://github.com/auraphp/Aura.Di",
-            "keywords": [
-                "container",
-                "dependency injection",
-                "dependency injection container",
-                "di",
-                "di container"
-            ],
-            "time": "2016-03-23 15:13:49"
-        },
-        {
-            "name": "aura/router",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "aeb49c8903cb07561022e2b65ef16c68fd2c01da"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/aeb49c8903cb07561022e2b65ef16c68fd2c01da",
-                "reference": "aeb49c8903cb07561022e2b65ef16c68fd2c01da",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0",
-                "psr/http-message": "~1.0",
-                "psr/log": "~1.0"
-            },
-            "require-dev": {
-                "zendframework/zend-diactoros": "~1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Aura\\Router\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aura.Router Contributors",
-                    "homepage": "https://github.com/auraphp/Aura.Router/contributors"
-                }
-            ],
-            "description": "Powerful, flexible web routing for PSR-7 requests.",
-            "homepage": "https://github.com/auraphp/Aura.Router",
-            "keywords": [
-                "psr-7",
-                "route",
-                "router",
-                "routing"
-            ],
-            "time": "2015-12-01 15:31:40"
-        },
-        {
-            "name": "container-interop/container-interop",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/fc08354828f8fd3245f77a66b9e23a6bca48297e",
-                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Interop\\Container\\": "src/Interop/Container/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "time": "2014-12-30 15:22:37"
-        },
-        {
-            "name": "psr/http-message",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-message.git",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "url": "https://api.github.com/repos/auraphp/Aura.Web/zipball/b22ba83141384981514e2057ebe99e9a5509914f",
+                "reference": "b22ba83141384981514e2057ebe99e9a5509914f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
+            "require-dev": {
+                "aura/di": "~2.0"
+            },
             "type": "library",
             "extra": {
+                "aura": {
+                    "type": "library",
+                    "config": {
+                        "common": "Aura\\Web\\_Config\\Common"
+                    }
+                },
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-develop-2": "2.0.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Http\\Message\\": "src/"
+                    "Aura\\Web\\": "src/",
+                    "Aura\\Web\\_Config\\": "config/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "BSD-2-Clause"
             ],
             "authors": [
                 {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "name": "Aura.Web Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Web/contributors"
                 }
             ],
-            "description": "Common interface for HTTP messages",
-            "homepage": "https://github.com/php-fig/http-message",
+            "description": "Provides web Request and Response objects for use by web controllers and actions. These are representations of the PHP web environment, not HTTP request and response objects proper.",
+            "homepage": "https://github.com/auraphp/Aura.Web",
             "keywords": [
-                "http",
-                "http-message",
-                "psr",
-                "psr-7",
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2015-03-27 18:59:27"
         },
         {
-            "name": "psr/log",
-            "version": "1.0.0",
+            "name": "nikic/fast-route",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/8ea928195fa9b907f0d6e48312d323c1a13cc2af",
+                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "time": "2016-06-12 19:08:51"
+        },
+        {
+            "name": "rdlowrey/auryn",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rdlowrey/auryn.git",
+                "reference": "2e4240791162dfe073d59654d8dc06df0eb0b73f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rdlowrey/auryn/zipball/2e4240791162dfe073d59654d8dc06df0eb0b73f",
+                "reference": "2e4240791162dfe073d59654d8dc06df0eb0b73f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1",
+                "fabpot/php-cs-fixer": "~1.9",
+                "phpunit/phpunit": "^4.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Auryn\\": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -207,17 +140,32 @@
             ],
             "authors": [
                 {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "name": "Dan Ackroyd",
+                    "email": "Danack@basereality.com",
+                    "homepage": "http://www.basereality.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Levi Morrison",
+                    "email": "levim@php.net",
+                    "homepage": "http://morrisonlevi.github.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@gmail.com",
+                    "homepage": "https://github.com/rdlowrey",
+                    "role": "Creator / Main Developer"
                 }
             ],
-            "description": "Common interface for logging libraries",
+            "description": "Auryn is a dependency injector for bootstrapping object-oriented PHP applications.",
+            "homepage": "https://github.com/rdlowrey/auryn",
             "keywords": [
-                "log",
-                "psr",
-                "psr-3"
+                "dependency injection",
+                "dic",
+                "ioc"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2016-03-14 20:10:19"
         }
     ],
     "packages-dev": [
