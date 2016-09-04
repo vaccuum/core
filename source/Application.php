@@ -74,7 +74,7 @@ class Application implements IApplication
         }
         else
         {
-            $message = "Action response cannot be send.";
+            $message = "Action response cannot be served.";
             throw new ApplicationException($message);
         }
     }
