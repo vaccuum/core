@@ -1,7 +1,9 @@
 <?php namespace Vaccuum\Foundation;
 
+use Symfony\Component\HttpFoundation\Response;
 use Vaccuum\Contracts\Container\IContainer;
 use Vaccuum\Contracts\Dispatcher\IDispatcher;
+use Vaccuum\Contracts\Foundation\ApplicationException;
 use Vaccuum\Contracts\Foundation\IApplication;
 use Vaccuum\Contracts\Router\IRouter;
 
@@ -37,9 +39,43 @@ class Application implements IApplication
     }
 
     /** @inheritdoc */
-    public function execute()
+    public function start()
     {
         $info = $this->router->match();
-        $this->dispatcher->dispatch($info->arguments(), $info->handler());
+
+        $output = $this->dispatcher->dispatch(
+            $info->arguments(),
+            $info->handler()
+        );
+
+        $response = $this->ensureResponse($output);
+        $response->send();
+
+        return $response;
+    }
+
+    /**
+     * Ensure output is a proper response object.
+     *
+     * @param mixed $output
+     *
+     * @throws ApplicationException
+     * @return Response
+     */
+    protected function ensureResponse($output)
+    {
+        if ($output instanceof Response)
+        {
+            return $output;
+        }
+        elseif (is_string($output))
+        {
+            return Response::create($output, 200);
+        }
+        else
+        {
+            $message = "Action response cannot be send.";
+            throw new ApplicationException($message);
+        }
     }
 }
